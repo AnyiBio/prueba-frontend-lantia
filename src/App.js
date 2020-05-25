@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import LandingPage from './pages/LandingPage';
-import './index.css';
+import PageTwo from './pages/PageTwo';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,7 +10,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route exact pathname='/' component={LandingPage} />
+          <Route exact path='/' component={LandingPage} />
+          <Route exact path='/two' component={PageTwo} />
         </Switch>
       </BrowserRouter>
 

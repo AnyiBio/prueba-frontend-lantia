@@ -1,0 +1,30 @@
+table {
+    border-radius: 10px;
+}
+
+.table1 th {
+    background-color: #3498db;
+    border-radius: 10px;
+    padding: 0;
+    color: white;
+}
+
+table td {
+    font-size: smaller;
+}
+
+.table1 {
+    background-color: #4caae9;
+}
+
+.table2 th {
+    background-color: #7aa477 ;
+    border-radius: 10px;
+    padding: 0;
+    color: white;
+}
+
+
+.table2 {
+    background-color: #97c776;
+}

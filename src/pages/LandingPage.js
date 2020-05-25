@@ -2,26 +2,84 @@ import React, { Fragment } from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+import look from '../img/icon01.png';
+import process from '../img/icon02.png';
+
 const LandingPage = () => {
     return (
         <Fragment>
             <Header />
-            <div className="card border-0 ml-5 bg-transparent">
-                <div className="card-body ml-5">
-                    <p className="card-text">En el contexto empresarial suele usarse el término vigilancia tecnológica e inteligencia competitiva de forma intercambiada, y por esto suelen acptarse ambos términos.</p>
-                    <p className="card-text">Ambos procesos manejan metodologías y etapas similares, y se diferencian principalmente su alcance de búsqueda, y la puesta en valor de la información; procurando principalmente en el caso de la inteligencia, que se contextualica la información a la organización que la realiza. En adelantecuando se use el término <b>Inteligencia Competitiva,</b> entenderemos que la vigilancia tecnológica está contenida dentro de su definición</p>
-                    <p className="card-text">Para mayor entendimiento sobre sus diferencias , podemos ver las siguientes tablas</p>
+            <div className="card border-0 ml-5 pd-0 bg-transparent">
+                <div className="card-body mr-5 ml-5 mt-5 mb-3">
+                    <p className="card-text text-justify">En el contexto empresarial suele usarse el término vigilancia tecnológica e inteligencia competitiva de forma intercambiada, y por esto suelen aceptarse ambos términos.</p>
+                    <p className="card-text text-justify">Ambos procesos manejan metodologías y etapas similares, y se diferencian principalmente su alcance de búsqueda, y la puesta en valor de la información; procurando principalmente en el caso de la inteligencia, que se contextualica la información a la organización que la realiza. En adelantecuando se use el término <b>Inteligencia Competitiva,</b> entenderemos que la vigilancia tecnológica está contenida dentro de su definición.</p>
+                    <p className="card-text">Para mayor entendimiento sobre sus diferencias , podemos ver las siguientes tablas:</p>
                 </div>
-                <div className="card w-50 border-0 d-flex direction-row">
-                    <div className="card-body">
-                        <h5 className="card-title bg-primary">Card title</h5>
-                        <p className="card-text bg-info">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div className="card-body">
-                        <h5 className="card-title bg-primary">Card title</h5>
-                        <p className="card-text bg-info">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+                <div className="border-0 d-flex direction-row justify-content-around">
+                    <table className='table1'>
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <img
+                                        alt="logo-menu"
+                                        src={look}
+                                    />Proceso de Vigilancia</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Más centrado en captar información</td>
+                            </tr>
+                            <tr>
+                                <td>Más centrado en explorar fuentes</td>
+                            </tr>
+                            <tr>
+                                <td >Carácter más operativo</td>
+                            </tr>
+                            <tr>
+                                <td >Aportación de valor más baja</td>
+                            </tr>
+                            <tr>
+                                <td >Más enfásis en la difusión rápida</td>
+                            </tr>
+                            <tr>
+                                <td >Más centrado en generar alertas</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table className='table2'>
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    <img
+                                        alt="logo-menu"
+                                        src={process}
+                                    />Proceso de Inteligencia</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Más centrado en analizar la información</td>
+                            </tr>
+                            <tr>
+                                <td>Más centrado en recomendar acciones</td>
+                            </tr>
+                            <tr>
+                                <td >Carácter más estratégico</td>
+                            </tr>
+                            <tr>
+                                <td >Aportación de valor más allá</td>
+                            </tr>
+                            <tr>
+                                <td >Más enfásis en la comunicación efectiva</td>
+                            </tr>
+                            <tr>
+                                <td >Más centrado en generar informes</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
+                <p className="card-text ml-5 mr-5 mt-3 text-center">Paralelo entre el proceso de vigilancia tecnológica y de inteligencia competitiva. Fuente (AENOR, 2018)</p>
             </div>
             <Footer />
         </Fragment>
