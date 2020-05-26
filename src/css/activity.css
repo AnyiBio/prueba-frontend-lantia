@@ -1,0 +1,59 @@
+.logo-activity {
+  width: 15%;
+}
+
+.button-activity {
+  width: 150px;
+  border-color: #ADD5EF;
+  border-radius: 50px 25px;
+  background-color: #ADD5EF;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.table-activity {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.table-activity tr {
+    height: 40px;
+    text-align: left;
+}
+
+.table-activity td {
+    padding-left: 10px;
+}
+
+.table-activity tr:nth-child(even) {
+  background-color: rgb(193, 230, 193);
+}
+
+#ip1 {
+    border-radius: 1.5em 0.5em;
+    padding: 20px; 
+    height: 10px; 
+    margin-left: 20px;
+}
+
+.carousel .slide {
+    background: none;
+}
+
+
+.carousel .control-dots .dot {
+    transition: opacity .25s ease-in;
+    opacity: .3;
+    filter: alpha(opacity=0);
+    box-shadow: gray;
+    background:rgb(54, 214, 134);
+    border-radius: 50%;
+}
+
+.validar {
+    border-radius: 1.5em 0.5em;
+    padding: 20px; 
+    height: 15px; 
+    margin-left: 20px;
+    background: blue;
+}

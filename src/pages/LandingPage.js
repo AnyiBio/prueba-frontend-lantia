@@ -1,14 +1,17 @@
 import React, { Fragment } from 'react';
-import Header from '../components/Header';
+import Eco from '@material-ui/icons/Eco';
+//components
+import { Header } from '../components/Header';
 import Footer from '../components/Footer';
-
+//icons
 import look from '../img/icon01.png';
 import process from '../img/icon02.png';
 
 const LandingPage = () => {
+
     return (
         <Fragment>
-            <Header />
+            <Header title="INTRODUCCIÓN A LOS CONCEPTOS" />
             <div className="card border-0 ml-5 pd-0 bg-transparent">
                 <div className="card-body mr-5 ml-5 mt-5 mb-3">
                     <p className="card-text text-justify">En el contexto empresarial suele usarse el término vigilancia tecnológica e inteligencia competitiva de forma intercambiada, y por esto suelen aceptarse ambos términos.</p>
@@ -28,19 +31,19 @@ const LandingPage = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Más centrado en captar información</td>
+                                <td><Eco style={{ color: '#2e7ab6' }} /> Más centrado en captar información</td>
                             </tr>
                             <tr>
-                                <td>Más centrado en explorar fuentes</td>
+                                <td> <Eco style={{ color: '#2e7ab6' }} /> Más centrado en explorar fuentes</td>
                             </tr>
                             <tr>
-                                <td >Carácter más operativo</td>
+                                <td ><Eco style={{ color: '#2e7ab6' }} /> Carácter más operativo</td>
                             </tr>
                             <tr>
-                                <td >Aportación de valor más baja</td>
+                                <td><Eco style={{ color: '#2e7ab6' }} /> Aportación de valor más baja</td>
                             </tr>
                             <tr>
-                                <td >Más enfásis en la difusión rápida</td>
+                                <td> <Eco style={{ color: '#2e7ab6' }} /> Más enfásis en la difusión rápida</td>
                             </tr>
                             <tr>
                                 <td >Más centrado en generar alertas</td>
@@ -59,30 +62,30 @@ const LandingPage = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Más centrado en analizar la información</td>
+                                <td><Eco style={{ color: '#70A159' }} /> Más centrado en analizar la información</td>
                             </tr>
                             <tr>
-                                <td>Más centrado en recomendar acciones</td>
+                                <td><Eco style={{ color: '#70A159' }} /> Más centrado en recomendar acciones</td>
                             </tr>
                             <tr>
-                                <td >Carácter más estratégico</td>
+                                <td><Eco style={{ color: '#70A159' }} /> Carácter más estratégico</td>
                             </tr>
                             <tr>
-                                <td >Aportación de valor más allá</td>
+                                <td><Eco style={{ color: '#70A159' }} /> Aportación de valor más allá</td>
                             </tr>
                             <tr>
-                                <td >Más enfásis en la comunicación efectiva</td>
+                                <td><Eco style={{ color: '#70A159' }} /> Más enfásis en la comunicación efectiva</td>
                             </tr>
                             <tr>
-                                <td >Más centrado en generar informes</td>
+                                <td><Eco style={{ color: '#70A159' }} /> Más centrado en generar informes</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
-                <p className="card-text ml-5 mr-5 mt-3 text-center">Paralelo entre el proceso de vigilancia tecnológica y de inteligencia competitiva. Fuente (AENOR, 2018)</p>
+                <p className="card-text ml-5 mr-5 mt-3 text-center h6">Tabla: Paralelo entre el proceso de vigilancia tecnológica y de inteligencia competitiva. Fuente (AENOR, 2018)</p>
             </div>
-            <Footer />
-        </Fragment>
+            <Footer num='01' />
+        </Fragment >
     );
 }
 

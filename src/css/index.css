@@ -1,0 +1,27 @@
+@import './landingPage.css';
+@import './footer.css';
+@import './activity.css';
+@import './process.css';
+
+html {
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  margin: 0;
+  height: 90vh;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.link{
+  color: black;
+}
